@@ -10,7 +10,7 @@ const app=express();
 connectDB();
 
 // Init Middleware 3.10
-app.use(express.json({ extended: false }));
+app.use(express.json());
 
 // Define Routes 2.8
 app.use('/api/users', require('./routes/api/users'));
