@@ -1,0 +1,7 @@
+{
+    "mongoURI":"mongodb+srv://macomagsael:macomagsael04@cluster1.qhuzn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "3b6f57a1a71d6a090d5b",
+    "githubSecret": "aaeb0e72578120cb5ba3ff63ff02d58a628b31db"
+
+}
