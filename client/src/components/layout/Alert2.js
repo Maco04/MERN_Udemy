@@ -4,15 +4,15 @@ import { connect } from 'react-redux';
 // import { alerts } from '../../actions/alert';
 
 const Alert2 = ({ alerts }) => (
-  <section className="container">
-      <div className="alert-wrapper">
+  <div className="alertcontainer">
+      <div className="alert-wrapper" >
           {alerts.map((alert) => (
             <div key={alert.id} className={`alert alert-${alert.alertType}`}>
               {alert.msg}
             </div>
           ))}
         </div>
-  </section>
+   </div>
   
 );
 

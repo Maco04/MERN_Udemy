@@ -44,6 +44,12 @@ img {
   margin-bottom: 3rem;
 }
 
+.alertcontainer{
+  margin: 60px 0;
+  
+  
+}
+
 /* Text Styles*/
 .x-large {
   font-size: 4rem;
